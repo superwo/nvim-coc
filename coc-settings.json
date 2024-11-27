@@ -24,7 +24,7 @@
     "**/docker/**"
   ],
   "intelephense.environment.includePaths": [
-    "/home/serii/Documents/plugins-wp/advanced-custom-fields-pro",
+    "/home/radu/Documents/plugins-wp/advanced-custom-fields-pro",
     "/home/radu/Desktop/bludelego/wordpress",
     "/home/radu/Desktop/bludelego/woocommerce",
     "/home/serii/Documents/wordpress/wp-pagenavi"

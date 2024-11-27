@@ -6,9 +6,10 @@ nmap <leader>a :bufdo w<CR>
 nmap _ i <Esc>
 
 inoremap <C-i> <C-r>=@i<CR>
-" remove empty lines
-" 
-nnoremap <silent> <Leader>x :g/^\s*$/d<CR>
+
+" " remove empty lines
+" nnoremap <silent> <Leader>x :g/^\s*$/d<CR>
+"
 " remove trailing spaces
 nnoremap <silent> <Leader>z :%s/\s\{2,}/ /g<CR>
 " open in browser

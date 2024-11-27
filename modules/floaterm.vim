@@ -7,6 +7,7 @@ let g:floaterm_keymap_toggle = '<C-b>'
 " Files
 nmap <leader>ff :Files<CR>
 nmap <leader>fs :vs <bar> :Files<CR>
+nmap <leader>ss :vs <bar> :Files<CR>
 " nmap <leader>fv :vs<CR><C-w>h
 nmap <leader>fb :Buffers<CR>
 nmap <silent> <expr> <leader>fw ':Files <cr>' . "'" . expand('<cword>')
