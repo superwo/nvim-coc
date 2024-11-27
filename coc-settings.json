@@ -1,0 +1,68 @@
+{
+  "explorer.width": 30,
+  "explorer.icon.enableNerdfont": true,
+  "explorer.previewAction.onHover": false,
+  "explorer.openAction.relativePath": true,
+  "explorer.keyMappings.global": {
+    "<cr>": ["expandable?", "expand", "open"],
+    "v": "open:vsplit"
+  },
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "snippets.userSnippetsDirectory": "~/.config/nvim/snips",
+  "intelephense.files.exclude": [
+    "**/.git/**",
+    "**/.svn/**",
+    "**/.hg/**",
+    "**/CVS/**",
+    "**/.DS_Store/**",
+    "**/node_modules/**",
+    "**/bower_components/**",
+    "**/vendor/**/{Tests,tests}/**",
+    "**/.history/**",
+    "**/vendor/**/vendor/**",
+    "**/docker/**"
+  ],
+  "intelephense.environment.includePaths": [
+    "/home/serii/Documents/plugins-wp/advanced-custom-fields-pro",
+    "/home/radu/Desktop/bludelego/wordpress",
+    "/home/radu/Desktop/bludelego/woocommerce",
+    "/home/serii/Documents/wordpress/wp-pagenavi"
+  ],
+  "intelephense.files.associations": ["*.php", "*.phtml", "*.blade.php"],
+  "intelephense.format.enable": true,
+  "intelephense.diagnostics.typeErrors": true,
+  "intelephense.diagnostics.unusedSymbols": true,
+  "intelephense.diagnostics.undefinedVariables": true,
+  "suggest.noselect": false,
+  "suggest.triggerCompletionWait": 50,
+  "eslint.enable": false,
+  "javascript.suggestionActions.enabled": false,
+  "snippets.ultisnips.pythonPrompt": false,
+  "sh.enable": true,
+  "bashIde.enableSourceErrorDiagnostics": true,
+  "bashIde.includeAllWorkspaceSymbols": true,
+  "emmet.includeLanguages": {
+    "php": "html",
+    "blade": "html",
+    "vue": "html",
+    "markdown": "html"
+  },
+  "python.analysis.useLibraryCodeForTypes": false,
+  "pyright.inlayHints.functionReturnTypes": false,
+  "pyright.inlayHints.variableTypes": false,
+  "pyright.inlayHints.parameterTypes": false,
+  "diagnostic.checkCurrentLine": false,
+  "html-css-support.styleSheets": [
+    "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css",
+    "/style.css",
+    "style.css"
+  ],
+  "html-css-support.enabledLanguages": [
+    "html",
+    "vue",
+    "blade",
+    "typescriptreact",
+    "javascriptreact"
+  ]
+}
