@@ -45,9 +45,8 @@ nnoremap <silent> <leader>qr :BufferLineCloseRight<CR>
 nnoremap <silent> <leader>qa :BufferLineCloseOther<CR>
 nmap <silent> <leader>qo :bp<bar>sp<bar>bn<bar>bd<CR>
 
--- Close current buffer
-nnoremap <silent> <Leader>x :bp<bar>sp<bar>bn<bar>bd<CR>
--- 
+nnoremap <leader>x :bp<bar>sp<bar>bn<bar>bd<CR>
+
 nnoremap <leader>1 :BufferLineGoToBuffer 1<CR>
 nnoremap <leader>2 :BufferLineGoToBuffer 2<CR>
 nnoremap <leader>3 :BufferLineGoToBuffer 3<CR>
